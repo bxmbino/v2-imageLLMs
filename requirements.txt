@@ -1,0 +1,9 @@
+tensorflow
+torch
+torchvision
+transformers
+streamlit>=1.28
+langchain>=0.0.217
+openai==0.27.4 #openai sdk is updated but langchain has not updated yet. so versions are conflicting. you have to downgrade to pip install openai==0.27.4 –
+ #openai>=1.2
+trubrics>=1.4.3
